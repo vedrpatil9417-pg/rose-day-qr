@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Rose Day Surprise 🌹</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card" id="nameCard">
+    <h2>Enter your name 💖</h2>
+    <input type="text" id="nameInput" placeholder="Your name">
+    <button onclick="showWish()">Continue 💌</button>
+</div>
+
+<div class="card hidden" id="wishCard">
+    <h1 id="wishText"></h1>
+    <p>A special surprise is waiting for you…</p>
+    <button id="openBtn">Open Surprise 🌹</button>
+</div>
+
+<div class="popup" id="popup">
+    <div class="popup-content">
+        <img src="rose.gif">
+        <h2>I Love You ❤️</h2>
+        <button onclick="closePopup()">Close</button>
+    </div>
+</div>
+
+<audio id="music" src="love.mp3"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
